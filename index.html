@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar cedula</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <figure class="main__figure">
+            <img src="./img/cedula-dominicana.jpg" class="main__img">
+        </figure>
+        <div class="main__contact">
+            <h2 class="main__title">Bienvenido!</h2>
+            <p class="main__paragraph">Vamos a validar si su cedula es correcta!</p>
+            <form class="main__form">
+                <input type="text" name="cedula" id="cedula" placeholder="Cedula" maxlength="11" class="main__input">   
+                <button class="main__input main__input--send" onclick="valida()">Valida</button>
+                <div class="Color" id="result"></div>
+            </form>
+            <p class="main__paragraph">Contáctanos</p>
+            <article class="main__social">
+                <a href="https://presidencia.gob.do/" class="main__link">
+                    <img src="./img/google-icon.svg" class="main__icon">
+                </a>
+                <a href="https://es-la.facebook.com/PresidenciaRD/" class="main__link">
+                    <img src="./img/facebook.svg" class="main__icon">
+                </a>
+                <script src="/css/app.js"></script>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
+
